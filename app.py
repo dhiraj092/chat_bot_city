@@ -8,6 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
+# Initialize the query processor
 try:
     processor = EnhancedQueryProcessor()
 except ValueError as e:
