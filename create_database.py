@@ -9,17 +9,13 @@ import shutil
 import logging
 from langchain_community.document_loaders import PyPDFLoader
 
-# Load environment variables
 load_dotenv()
 
-# Logging configuration
 logging.basicConfig(level=logging.INFO)
 
-# Define constants
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
 
-# Set OpenAI API key
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 def main():
