@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-CHROMA_PATH = "chroma"
+CHROMA_PATH = "/data/chromadb"
 
 PROMPT_TEMPLATE = """
 You are an AI assistant representing the City of Kingston, Ontario. Your role is to provide accurate, well-structured, and legally compliant answers regarding local bylaws, rules, and regulations. 
