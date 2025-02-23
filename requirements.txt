@@ -5,7 +5,7 @@ langchain-openai
 langchain-core
 langsmith
 unstructured
-chromadb
+chromadb==0.5.0
 openai
 tiktoken
 flask
