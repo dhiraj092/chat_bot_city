@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Define constants
-CHROMA_PATH = "/data/chromadb"  # Persistent path
+CHROMA_PATH = "chroma"  # Persistent path
 DATA_PATH = "data"  # Folder with PDFs
 
 # Set OpenAI API key
